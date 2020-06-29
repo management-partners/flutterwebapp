@@ -1,6 +1,7 @@
 # flutterwebapp
 
 A new Flutter project.
+This is basic knowledge flutter web
 
 ## Getting Started
 
