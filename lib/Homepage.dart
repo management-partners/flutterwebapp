@@ -122,7 +122,11 @@ class _HomePageState extends State<HomePage>
                         ),
                         new Container(
                           margin: EdgeInsets.all(10.0),
-                          child: Text("Lorem content here", style: TextStyle(fontSize: 16.0, color: Colors.white),),
+                          child: Text(
+                            "Lorem content here",
+                            style:
+                                TextStyle(fontSize: 16.0, color: Colors.white),
+                          ),
                         ),
                       ],
                     ),
@@ -155,7 +159,11 @@ class _HomePageState extends State<HomePage>
                         ),
                         new Container(
                           margin: EdgeInsets.all(10.0),
-                          child: Text("Lorem content here", style: TextStyle(fontSize: 16.0, color: Colors.white),),
+                          child: Text(
+                            "Lorem content here",
+                            style:
+                                TextStyle(fontSize: 16.0, color: Colors.white),
+                          ),
                         ),
                       ],
                     ),
@@ -171,7 +179,7 @@ class _HomePageState extends State<HomePage>
                         new Container(
                           height: 150.0,
                           width: 150.0,
-                          margin:EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 0.0),
+                          margin: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 0.0),
                           decoration: new BoxDecoration(
                             borderRadius: new BorderRadius.circular(15.0),
                             image: DecorationImage(
@@ -188,7 +196,11 @@ class _HomePageState extends State<HomePage>
                         ),
                         new Container(
                           margin: EdgeInsets.all(10.0),
-                          child: Text("Lorem content here", style: TextStyle(fontSize: 16.0, color: Colors.white),),
+                          child: Text(
+                            "Lorem content here",
+                            style:
+                                TextStyle(fontSize: 16.0, color: Colors.white),
+                          ),
                         ),
                       ],
                     ),
@@ -196,12 +208,30 @@ class _HomePageState extends State<HomePage>
                 ),
               ],
             ),
-          )
-          ,
-          SizedBox(height: 10.0,),
+          ),
+          
           // this is gallery
-
-
+         new Container(
+            margin: EdgeInsets.all(10.0),
+            height: 400,
+            width: MediaQuery.of(context).size.width,
+            child: Column(
+              children: [
+                Container(
+                  height: 40.0,
+                  padding: EdgeInsets.all(10.0),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: Colors.blueGrey),
+                  child: Text(
+                    "Our Team",
+                    style: TextStyle(fontSize: 18, color: Colors.white),
+                  ),
+                ),
+              ],
+            ),
+          )
+          
         ],
       ),
     );
