@@ -559,7 +559,131 @@ class _HomePageState extends State<HomePage>
                                   textAlign: TextAlign.left,
                                 ),
                                Container(
-                                  
+                                  padding: EdgeInsets.all(9.0),
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(15.0),
+                                    color: Colors.deepPurple
+                                  ),
+                                  child: Text("Read More", 
+                                      style: TextStyle(fontSize: 16.0, color: Colors.white
+                                      ),
+                                  ),
+                               ),
+                              ], 
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 10.0,
+                  child: Container(
+                    // height: 200.0,
+                    child: Row(
+                      children: [
+                        Expanded(
+                          flex: 1,
+                          child: Image(
+                            image: AssetImage("b.png"),
+                            fit: BoxFit.cover,
+                            height: 200.0,
+                            width: 200.0,
+                          ),
+                        ),
+                        Expanded(
+                          flex: 3,
+                          child: Container(
+                            padding: EdgeInsets.all(15.0),
+                            height: 200.0,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                Text(
+                                  " Note:\n As of Flutter’s 1.19.0 dev release, the Flutter SDK contains the dart command alongside the flutter command so that you can more easily run Dart command-line programs. Downloading the Flutter SDK also downloads the compatible version of Dart, but if you’ve downloaded the Dart SDK separately, make sure that the Flutter version of dart is first in your path, as the two versions might not be compatible.",
+                                  style: TextStyle(
+                                      fontSize: 14, color: Colors.black),
+                                  textAlign: TextAlign.justify,
+                                ),
+                                SizedBox(
+                                  height: 10.0,
+                                ),
+                                Text(
+                                  DateFormat('yyyy年MM月dd日')
+                                      .format(DateTime.now().toLocal()),
+                                  style: TextStyle(
+                                      fontSize: 14, color: Colors.green),
+                                  textAlign: TextAlign.left,
+                                ),
+                               Container(
+                                  padding: EdgeInsets.all(9.0),
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(15.0),
+                                    color: Colors.deepPurple
+                                  ),
+                                  child: Text("Read More", 
+                                      style: TextStyle(fontSize: 16.0, color: Colors.white
+                                      ),
+                                  ),
+                               ),
+                              ], 
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 10.0,
+                  child: Container(
+                    // height: 200.0,
+                    child: Row(
+                      children: [
+                        Expanded(
+                          flex: 1,
+                          child: Image(
+                            image: AssetImage("c.png"),
+                            fit: BoxFit.cover,
+                            height: 200.0,
+                            width: 200.0,
+                          ),
+                        ),
+                        Expanded(
+                          flex: 3,
+                          child: Container(
+                            padding: EdgeInsets.all(15.0),
+                            height: 200.0,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                Text(
+                                  " Note:\n As of Flutter’s 1.19.0 dev release, the Flutter SDK contains the dart command alongside the flutter command so that you can more easily run Dart command-line programs. Downloading the Flutter SDK also downloads the compatible version of Dart, but if you’ve downloaded the Dart SDK separately, make sure that the Flutter version of dart is first in your path, as the two versions might not be compatible.",
+                                  style: TextStyle(
+                                      fontSize: 14, color: Colors.black),
+                                  textAlign: TextAlign.justify,
+                                ),
+                                SizedBox(
+                                  height: 10.0,
+                                ),
+                                Text(
+                                  DateFormat('yyyy年MM月dd日')
+                                      .format(DateTime.now().toLocal()),
+                                  style: TextStyle(
+                                      fontSize: 14, color: Colors.green),
+                                  textAlign: TextAlign.left,
+                                ),
+                               Container(
+                                  padding: EdgeInsets.all(9.0),
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(15.0),
+                                    color: Colors.deepPurple
+                                  ),
+                                  child: Text("Read More", 
+                                      style: TextStyle(fontSize: 16.0, color: Colors.white
+                                      ),
+                                  ),
                                ),
                               ], 
                             ),
